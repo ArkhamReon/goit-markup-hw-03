@@ -1,0 +1,148 @@
+:root{
+    --white: #ffffff;
+    --cornflower: #E7E9FC;
+    --IRISH: #4D5AE5;
+    --NAVYBLUE: #2E2F42; 
+    --SLATE: #434455;
+    --CLOUD: #f4f4fd;
+    --OCEAN:  #2B65EC;
+   
+
+
+}
+body{
+    padding: 0%;
+    font-family:  "Roboto", sans-serif;
+}
+
+.logo{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.54;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.web{
+    color:var(--IRISH)
+}
+
+.logo-web{
+    color: var(--NAVYBLUE);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5; 
+    letter-spacing: 0.54px;
+    
+    
+}
+
+.logo-studio{
+    color: var(--CLOUD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5px; 
+    letter-spacing: 0.54px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: var(--NAVYBLUE);
+}
+
+.nav-link:hover, .nav-link:focus
+{
+    color: var(--IRISH);
+}
+
+
+.git-link{
+    color: var(--SLATE)
+}
+
+.list{
+    list-style: none;
+    padding-left: 0%;
+}
+
+.footer-text{
+color:var(--CLOUD);    
+font-family: inherit; 
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+}
+
+/* HERO SECTION  */
+.hero{
+    background-color: var(--NAVYBLUE);
+}
+
+.hero-text{
+    color: var(--white);
+    font-family: inherit;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 3.7;
+    letter-spacing: 1.12px;
+}
+
+.hero-style{
+    text-align: center;
+}
+
+.hero-btn{
+    background-color: var(--IRISH);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* END OF HERO SECTION  */
+
+/* title section  */
+
+.title-text{
+    text-align: center;
+    color: var(--NAVYBLUE);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    
+}
+
+/* .item-list{
+    display: flex;
+    justify-content: center;
+} */
+
+/* end of title section  */
+
+/* our team section  */
+
+.our-team-list{
+    text-align: center;
+    color: var(--NAVYBLUE);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+/* end of our team section  */
